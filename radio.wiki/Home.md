@@ -31,7 +31,7 @@ vcgencmd get_config arm_freq
 systemctl is-active application.service
 systemctl list-units --type=service
 sudo systemctl reload-or-restart application.service
-sudo systemctl enable <service>    # disable start stop restart reboot 
+sudo systemctl enable <service>    # disable start stop restart reboot
 journalctl -u openwebrx.service  
 df                                 # disk space
 hostname                           # displays current system hostname
